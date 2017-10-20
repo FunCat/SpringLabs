@@ -20,6 +20,7 @@
         <module>lab5aop</module>
         <module>lab6jdbc</module>
         <module>lab7orm</module>
+        <module>lab8tx</module>
     </modules>
 
     <dependencyManagement>

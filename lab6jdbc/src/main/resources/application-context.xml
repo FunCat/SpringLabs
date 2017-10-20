@@ -15,7 +15,7 @@
     </bean>
 
     <jdbc:initialize-database data-source="dataSource">
-        <jdbc:script execution="INIT" location="classpath:db-schema.sql" />
+        <jdbc:script location="classpath:db-schema.sql" />
     </jdbc:initialize-database>
 
     <bean id="countryDao" class="lab.dao.CountryDao">
